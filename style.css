@@ -1,0 +1,233 @@
+/*Fontes*/
+@font-face {
+    font-family:"04B_30__" ;
+    src: url(fonts/04B_30__.TTF);
+}
+@font-face {
+     font-family: "dogica";
+    src: url(fonts/dogica.ttf);
+}
+/*Definições Gerais*/
+    body{
+        background-color: rgb(235, 209, 235);
+        margin: 0;
+    }
+    h1{
+        font-family: "04B_30__";
+    }
+    h2{
+        font-family: "04B_30__";
+    }
+    p{
+        font-family: "dogica";
+        text-align: justify;
+        line-height: 25px;
+    }
+    /*Botão de retorno*/
+    #back_home{
+        background-color: rgb(227, 197, 119);
+        border-top-left-radius: 30px;
+        border-top-right-radius:30px ;
+        
+    }
+    /**Menu*/
+        #menu{
+            background-color: rgb(153, 60, 210);
+            padding: 15px;
+            
+            display: flex;
+            align-items: center;
+            gap: 50px;
+        }
+
+        #logo{
+            width: 80px;
+            height: auto;
+        }
+
+        #menu a{
+            font-family: "04B_30__";
+            text-decoration: none;
+            color: black;
+        }
+
+        #menu a:hover{
+            color: white;
+        }
+    /*Títulos das Páginas*/
+        #inth1{
+            padding: 30px;
+            background-color: white;
+            text-align: center;
+            margin: 0;
+            border-bottom-left-radius: 30px;
+            border-bottom-right-radius:30px ;
+        }
+/*banner - página inicial*/
+#banner{
+    background-image: url("img/banner.jpeg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 40px;
+    color: rgb(0, 0, 0);
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+#title{
+    font-family: "04B_30__";
+    margin: 0;
+    font-size: 4rem;
+}
+
+#smalltitle{
+    font-family: "04B_30__";
+    margin: 0;
+    font-size: 2rem;
+}
+
+#subtitle{
+    margin-top: 20px;
+    font-size: 1.2rem;
+    width: 30%;
+}
+
+/*Introdução - Página Inicial*/
+#intro{
+    padding: 30px;
+    background-color: rgb(227, 197, 119);
+    border-radius: 30px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+#intro p{
+    width: 50%;
+    text-indent: 30px;
+}
+
+/*menu de navegação - página inicial*/
+#navegation{
+    font-family: "04B_30__";
+    text-align: center;
+    background-color: rgb(158, 192, 255);
+    padding: 30px;
+    border-top-left-radius: 30px;
+    border-top-right-radius:30px ;
+}
+
+.button-contain{
+    display: grid;
+    place-items: center;
+}
+.button-contain p{
+    text-align: center;
+}
+#nav_group_button{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav_buttons{
+    background-color: transparent;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+.nav_buttons img{
+    width: 300px;
+    height: 300px;
+}
+
+
+.nav_buttons:hover{
+    transform: scale(1.1);
+}
+
+/*Perfil da integrantes - Página das Integrantes*/
+.int_contain{
+    padding: 30px;
+    background-color: rgb(158, 192, 255);
+    border-radius: 30px;
+    margin: 60px;
+}
+.int_contain p{
+    width: 65%;
+}
+.int_contain img{
+    width: 15%;
+    height: auto;
+    border-radius: 15px;
+}
+.int-subcontain{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+/*breve texto da página Discografia*/
+#text{
+    background-color:  rgb(158, 192, 255);
+    padding: 30px;
+    margin: 30px;
+    text-indent: 30px;
+    border-radius: 30px;
+}
+/*Albúns - Discografia*/
+#disco{
+    display: grid;
+    grid-template-columns: repeat(2, 45%);
+    justify-content: center;
+}
+.album-contain{
+    padding: 30px;
+    border-radius: 30px;
+    margin: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.album-contain iframe{
+    width: 100%;
+    height: 200px;
+}
+#alb1{
+    background-color: rgb(64, 72, 64, 255);
+}
+#alb2{
+    background-color: rgba(48, 72, 40, 255);
+}
+#alb3{
+    background-color: rgb(0 40 64);
+}
+#alb4{
+    background-color: rgba(52, 82, 136, 255);
+}
+
+/*Página dos criadores*/
+   #creators-contain{
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.creators-subcontain{
+    background-color: rgb(158, 192, 255);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 300px;
+    height: 500px;
+    padding: 30px;
+    margin: 60px;
+    border-radius: 30px;
+}
+
+.creators-subcontain img{
+    width: 200px;
+}
